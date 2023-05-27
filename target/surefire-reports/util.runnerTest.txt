@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: util.runnerTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 32.995 sec <<< FAILURE!
+Login with correct username and password(Login to the application)  Time elapsed: 15.962 sec  <<< ERROR!
+java.lang.IllegalStateException: This is not home page
+	at stepdefinitions.loginSteps.iEnteredToTheHomeScreen(loginSteps.java:40)
+	at ✽.I entered to the home screen(file:///C:/Users/Admin1/IdeaProjects/Test/src/test/resources/features/open.feature:6)
+

@@ -1,0 +1,5 @@
+Pages\registrationPage.class
+stepdefinitions\loginSteps.class
+Pages\loginPage.class
+util\runnerTest.class
+stepdefinitions\registrationSteps.class
