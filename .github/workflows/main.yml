@@ -1,1 +1,8 @@
 
+pr:
+  -feat/*
+  -hotfix/*
+
+  steps:
+    -script: mvn clean test
+    displayName: 'Run Continous integration tests'
