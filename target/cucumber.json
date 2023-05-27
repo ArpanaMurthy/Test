@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2023-05-27T14:54:59.368Z",
+        "start_timestamp": "2023-05-27T16:46:07.858Z",
         "line": 11,
         "name": "Login with correct username and password",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 15528986800,
+              "duration": 18109957600,
               "status": "passed"
             },
             "line": 4,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 190775700,
+              "duration": 167306100,
               "status": "passed"
             },
             "line": 5,
@@ -47,8 +47,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.IllegalStateException: This is not home page\r\n\tat stepdefinitions.loginSteps.iEnteredToTheHomeScreen(loginSteps.java:40)\r\n\tat ✽.I entered to the home screen(file:///C:/Users/Admin1/IdeaProjects/Test/src/test/resources/features/open.feature:6)\r\n",
-              "duration": 51788900,
+              "error_message": "java.lang.IllegalStateException: This is not home page\r\n\tat stepdefinitions.loginSteps.iEnteredToTheHomeScreen(loginSteps.java:40)\r\n\tat ✽.I entered to the home screen(file:///C:/Users/Admin1/IdeaProjects/Test/src/test/resources/features/login.feature:6)\r\n",
+              "duration": 45977600,
               "status": "failed"
             },
             "line": 6,
@@ -65,14 +65,14 @@
     "description": "",
     "id": "login-to-the-application",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/open.feature",
+    "uri": "file:src/test/resources/features/login.feature",
     "tags": []
   },
   {
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2023-05-27T14:55:15.212Z",
+        "start_timestamp": "2023-05-27T16:46:26.249Z",
         "line": 11,
         "name": "Registration process check",
         "description": "",
@@ -82,7 +82,7 @@
         "steps": [
           {
             "result": {
-              "duration": 14384203000,
+              "duration": 14450188300,
               "status": "passed"
             },
             "line": 5,
@@ -94,7 +94,7 @@
           },
           {
             "result": {
-              "duration": 1770854200,
+              "duration": 1727475200,
               "status": "passed"
             },
             "line": 6,
@@ -136,7 +136,7 @@
           },
           {
             "result": {
-              "duration": 290531300,
+              "duration": 270205800,
               "status": "passed"
             },
             "line": 7,
