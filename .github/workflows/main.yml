@@ -1,8 +1,11 @@
+name: Hello workflow
+on:
+  pull_request:
+    branches: ["master"]
 
-pr:
-  -feat/*
-  -hotfix/*
+jobs:
+  CICD:
+     runs-on: ubuntu-latest
+     steps:
+      - run: echo "running tests"
 
-  steps:
-    -script: mvn clean test
-    displayName: 'Run Continous integration tests'
