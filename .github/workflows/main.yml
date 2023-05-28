@@ -4,10 +4,8 @@ on:
     branches: ["master"]
 
 jobs:
-  tests:
-    runs-on: ubuntu-latest
-
-  steps:
+     runs-on: ubuntu-latest
+     steps:
     -uses: actions/checkout@v2
-    -script: mvn clean test
+    run: mvn clean test
     displayName: 'Run continuous integration tests'
