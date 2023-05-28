@@ -1,14 +1,11 @@
 name: Hello workflow
 on:
   pull_request:
-    branches: -master
-    workflow_dispatch:
+    branches: ["master"]
 
 jobs:
   CICD:
      runs-on: ubuntu-latest
      steps:
-    -uses: actions/checkout@v2
-     -name: Automation
-    run: echo "running tests"
-     shell: bash
+      - run: echo "running tests"
+
