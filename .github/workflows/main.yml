@@ -8,6 +8,6 @@ jobs:
     runs-on: ubuntu-latest
 
   steps:
-    -uses:
+    -uses: actions/checkout@v2
     -script: mvn clean test
     displayName: 'Run continuous integration tests'
