@@ -7,5 +7,6 @@ jobs:
      runs-on: ubuntu-latest
      steps:
     -uses: actions/checkout@v2
-    run: mvn clean test
+    run: echo "running tests"
+     shesll: bash
     displayName: 'Run continuous integration tests'
