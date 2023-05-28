@@ -1,8 +1,13 @@
 
-pr:
-  -feat/*
-  -hotfix/*
+on:
+  pull_request:
+    branches: ["master"]
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
 
   steps:
+    -uses:
     -script: mvn clean test
-    displayName: 'Run Continous integration tests'
+    displayName: 'Run continuous integration tests'
