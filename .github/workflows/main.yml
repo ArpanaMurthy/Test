@@ -1,12 +1,13 @@
-
+name: Hello workflow
 on:
   pull_request:
     branches: -master
+    workflow_dispatch:
 
 jobs:
      runs-on: ubuntu-latest
      steps:
     -uses: actions/checkout@v2
+     -name: Automation
     run: echo "running tests"
      shesll: bash
-    displayName: 'Run continuous integration tests'
