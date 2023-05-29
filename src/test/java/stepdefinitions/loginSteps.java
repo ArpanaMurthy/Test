@@ -39,7 +39,9 @@ public class loginSteps {
         {
             throw new IllegalStateException("This is not home page");
         }
+            driver.close();
         }
+
     }
 
 
